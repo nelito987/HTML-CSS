@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel = "stylesheet"
+           type = "text/css"
+           href = "reset.css">
+        <title>Fakebook Register Form</title>
+        <link rel="stylesheet" href="style.css">	
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<h1>fakebook<span id="small-copy">&reg;</span></h1>
+			<h3>Registration</h3>
+			<h6>It is safe and it will always be!</h6>
+
+			<form>
+				<div id="left-side">
+					<fieldset id="none-important">
+						<legend>None-Important Information</legend>
+						<input type="text" placeholder="First Name"/>
+						<input type="text" placeholder="Last Name"/>
+						<input type="email" placeholder="Your Email"/>
+						<input type="tel" placeholder="Phone Number"/>
+						<input type="password" placeholder="Your Password"/>
+						<input type="url" placeholder="Website"/>
+						<label for="birth-date">Birthday</label><br/>
+						<input type="date" id="birth-date"/><br/>
+						<div class="gender-buttons">
+							<input type="radio" name="gender" id="female">
+							<label for="female" name="gender">Female</label>
+							<input type="radio" name="gender" id="male">
+							<label for="male" name="gender">Male</label>
+							<input type="radio" name="gender" id="other">
+							<label for="other" name="gender">Other</label>
+						</div>						
+					</fieldset>
+					<input type="reset" value="Clear Form" />
+				</div>
+				<div id="right-side">
+					<fieldset id="important">
+						<legend>Important Information *required</legend>
+						<select name="country" required="true" class="oneThird">
+							<option disabled="disabled" selected="selected" 	value="" >Country</option>
+								<option value="bulgaria">Bulgaria</option>
+								<option value="italy">Italy</option>
+								<option value="usa">USA</option>
+						</select>
+						<input type="text" placeholder="Village" class="oneThird" required="true" />
+						<input type="text" placeholder="District" required="true" class="oneThird" />
+						<input type="text" placeholder="Street" required="true" class="oneThird" />
+						<input type="number" placeholder="Nr" required="true" class="oneForth"/>
+						<input type="text" placeholder="Floor" required="true" class="oneForth" />
+						<input type="text" placeholder="Ap.Nr" required="true" class="oneForth"><br/>
+						<label for="door-color" class="oneThird">Door Color</label><br/>
+						<input type="color" name="door-color" id="door-color" value="#FF8000" required="true" class="oneThird" />
+						<input type="text" placeholder="Water Meter Nr" required="true" class="oneThird" name="meter"/>
+						<select name="aunt" required="true" class="oneThird">
+							<option disabled="disabled" selected="selected" value="">Aunt Panties'size</option>
+							<option value="s">S</option>
+							<option value="m">M</option>
+							<option value="l">L</option>
+						</select>
+						<label for="more-info">More Personal Information</label>
+						<textarea id="more-info" placeholder="Give Us More Information!!!"></textarea><br/>	
+					</fieldset>				
+				<input type="submit" value="Register" />
+				</div>				
+			</form>			
+		</div>
+	</body>
+</html>

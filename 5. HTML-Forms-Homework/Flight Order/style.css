@@ -1,0 +1,68 @@
+#from,
+#to,
+#departure-date, 
+#departure-interval, 
+#return-date, 
+#return-interval,
+#teenagers,
+#children,
+#babies,
+#class {
+	display: inline-block;
+}
+
+
+
+form {
+	background: #f78181;
+	margin: 0 auto;
+	font-style: italic;
+	font-size: 12px;	
+	width: 400px;
+}
+
+#from, #to{
+	width: 180px;
+	margin-right: 3px;
+	align-items: center;
+}
+
+select, input[type="submit"]{
+	width: 185px;
+	height: 25px;
+}
+
+header{
+	font-style: bold;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#from {
+	float: left;
+	clear: both;
+}
+
+input[type="date"]{
+	width:180px;
+}
+
+input[type="time"]{
+	width: 80px;
+	margin-left: 5px;
+}
+
+input[type="number"]{
+	width: 53px;
+	margin-right: 3px;
+}
+
+#departure-info, #return-info, #additional-info{
+	margin-top: 10px;
+}
+
+input[type="submit"]{
+	margin-top: 10px;
+	float: right;
+}

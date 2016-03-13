@@ -1,0 +1,139 @@
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+}
+
+#wrapper {
+	background-color: #234465;
+	color: white;
+	width: 100%;
+	padding: 10px 0px;
+	display: flex;
+	justify-content: space-between;	
+	box-sizing: border-box; /* For IE and latest Chrome */
+	-moz-box-sizing: border-box; /* For Firefox */
+	-webkit-box-sizing: border-box; /* For Safari */
+}
+
+#logo {
+	width: 250px;
+	height: 100%;
+	display: inline-block;
+	margin-left: 35px;
+	margin-top: 10px;
+}
+
+#container {
+	width: 80%;
+	height: 100%;	
+	float: right;
+	clear: both; 
+
+}
+
+#notifications, #search, #user, #logo, #container{
+	display: inline-block;
+	float: right;
+	clear: both;
+}
+
+#about-menu>li, #courses>li, #user-menu>li {
+	display: block;
+	margin-bottom: 0px;
+	padding: 10px;
+	background-color: #234465;
+}
+
+#user-menu{
+	margin-bottom: 20px;
+}
+
+#upper-menu, #main-menu {
+	margin: 3px 0px 7px 0px;
+	display: flex;
+	float: right;
+	clear: both;
+}
+
+#about-menu, #courses, #user-menu {
+	display: none;
+}
+
+#about:hover ul, #training:hover ul, #user:hover ul
+{
+	position: absolute;
+	display: block;
+}
+
+#user:hover ul{
+	position: absolute;
+	top: 40px;	
+}
+
+a {
+	color: white;
+}
+
+a, #about, #training, #user{
+	text-decoration: none;
+}
+
+#notifications, #user, #search
+{
+	margin: 5px 10px;
+}
+
+#main-menu>li{
+	padding: 5px 30px;
+}
+
+#search{
+	position: relative;
+	margin-left: 0px;
+	margin-right: 30px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#user{
+	margin-right: 0px;
+}
+
+#zero {
+	margin: 2px;
+}
+
+#zero:hover, #user:hover
+{
+	text-decoration: underline;
+
+}
+
+input[type="search"]
+{
+	width: 320px;
+	height: 30px;
+	border-radius: 4px;
+	border: none;
+	margin-left: 20px;
+	color: grey;
+	padding-left: 10px;
+}
+
+input[type="image"]
+{
+	position: absolute;
+	height: 100%;
+	border-radius: 4px;
+	top: 0;
+	right: 0;
+	margin: auto;
+	border-left: 1px solid #e3e3e3;
+}
+
+#zero{
+	position: relative;
+	top: -6px;
+}
+
+

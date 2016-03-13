@@ -1,0 +1,97 @@
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+	display: flex;
+}
+
+#laptops {
+	width: 70%;
+	float: left;
+}
+
+#range {
+	width: 25%;
+	background-color: #e0f8f7;
+	color: #084b8a; 
+	margin-top: 25px;
+}
+
+button{
+	background-color: white;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	width: 30%;
+	margin: 5px 3px;	
+	color: #084b8a;	
+}
+
+header{
+	font-size: 2em;
+	font-weight: bold;
+	margin: 20px 10px;	
+	color: #084b8a;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 1.1em;	
+	color: #084b8a;
+	text-align: center;
+}
+
+p{
+	display: block;
+	height: 40px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+div.price {
+	width: 45%;
+	background-color:#084b8a;
+	color: white;
+	border: none;
+	border-top-left-radius:8px;
+	float: right;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	left: 7px;
+	bottom: -1px;
+	padding: 10px;
+	font-weight: normal;
+	font-size: 0.8em;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+div.min-max{
+	padding: 0;
+	width: 100%;
+}
+div.max {
+    text-align: right;
+    float: right;
+}
+div.min-max, 
+div.max {
+    display: inline-block;
+}
+
+input{
+	width: 90%;
+	margin: 10px;
+}

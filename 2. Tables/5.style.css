@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+table { 
+	font-family: Arial;
+	font-size: 1.5em;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+tr {
+	height: 120px;
+}
+
+td, th {
+	border: 2px solid black;
+	width: 120px;
+	padding: 5px;
+}
+
+td.top { 
+vertical-align: top;
+}
+
+td.bottom {
+	vertical-align: bottom;
+}
+
+td.center {
+	text-align: center;
+}
+
+td.right {
+	text-align: right;
+}
+
+th {
+	font-size: 2em;
+}
+
+.big {
+	font-size: 1.5em;
+}
+
+table tr td table  {
+    margin: 0;
+}
+
+table tr td table tr {
+    height: 50px;
+}
+
+table tr td table tr td {
+    font-size: 0.5em;
+}

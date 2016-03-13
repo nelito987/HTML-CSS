@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title>Floght Order</title>
+        <link rel="stylesheet" href="style.css">	
+	</head>
+
+	<body>
+		<form>
+			<fieldset>
+			<header>flight order</header>
+			<div id="from-to">
+				<div id="from">
+					<label for="from">From</label></br>
+					<select name="from-city" id="from">
+						<option>enter a city</option>
+						<option value="sofia">Sofia</option>
+						<option value="plovdiv">Plovdiv</option>
+						<option value="bourgas">Bourgas</option>
+					</select>
+				</div>
+
+				<div id="to">
+					<label for="to">To</label></br>
+					<select name="to-city" id="to">
+						<option>enter a city</option>
+						<option value="barcelona">Barcelona</option>
+						<option value="rio">Rio</option>
+						<option value="sidney">Sidney</option>
+					</select>
+					</br><input type="checkbox" name="prefer-direct" value="yes" id="flight"/> 
+					<label for="flight">Prefer direct</label>
+				</div>
+			</div>
+
+			<div id="departure-info">
+				<div id="departure-date">
+					<label for="departure-date">Departure Date</label></br>
+					<input type="date" name="startDate" id="departure-date" value="01-01-2016"/>
+				</div>
+				<div id="departure-interval">
+					<label for="departure-interval">Time interval</label></br>
+					<input type="time" name="departure-interval-min" id="interval" value="00:20"/>
+					<input type="time" name="departure-interval-max" id="interval" value="05:00"/>
+				</div>
+			</div>
+
+			<div id="return-info">
+				<div id="return-date">
+					<label for="return-date">Return Date</label></br>
+					<input type="date" name="endDate" id="return-date" value="01-01-2016"/>
+				</div>
+				<div id="return-interval">
+					<label for="return-interval">Time interval</label><br/>
+					<input type="time" name="return-interval-min" id="interval" value="16:00"/>
+					<input type="time" name="return-interval-max" id="interval" value="22:00"/>
+				</div>
+			</div>
+
+			<div id="additional-info">
+				<div id="teenagers">
+					<label for="teenager">12+</label><br/>
+					<input type="number" min="0" max="10" value="0" />
+				</div>
+				<div id="children">
+					<label for="children">2-12</label><br/>
+					<input type="number" min="0" max="10" value="0" />
+				</div>
+				<div id="babies">
+					<label for="babies">0-2</label><br/>
+					<input type="number" min="0" max="10" value="0" />
+				</div>
+				<div id="class">
+					<label for="class">Choose class</label><br/>
+					<select name="choose-class" id="class">
+						<option value="economy">Economy</option>
+						<option value="business">Business</option>
+						<option value="vip">VIP</option>
+					</select>
+				</div>
+			</div>
+
+			<div>
+				<input type="submit" value="Search" />
+			</div>
+			</fieldset>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="reset.css"/>
+	<title>Website Header</title>
+	<meta charset = "utf-8" />
+</head>
+<body>
+	<div id="wrapper">
+		<div id="logo">
+			<a href = "http://softuni.bg">
+				<img src = "resources/logo.png" alt = "softuni" title = "SoftUni"/>
+			</a>
+		</div>
+
+		<div id="container">
+			<div id="upper-menu">
+				<div id="notifications">
+					<span id="zero">0</span>
+					<img src="resources/notifications.jpg" alt="notifications" title="Notifications" id="notif-pic"/>
+				</div>
+				<div id="user">
+					<span id="user">USER &blacktriangledown;</span>
+					<ul id="user-menu">
+						<li><a href="https://softuni.bg/users/profile/show">Profile</a></li>
+						<li><a href="https://softuni.bg/users/teamwork/list">Teamwork</a></li>
+						<li><a href="https://softuni.bg/certificates/certificates">Certificates</a></li>
+					</ul>
+				</div>
+				<div id="search">
+					<form method="get" action="#">
+						<input type="search" name="search" placeholder="Search..." />
+						<input type="image" src="resources/search.png" />
+					</form>
+				</div>
+			</div>
+			<div id="menu">
+				<nav>
+					<ul id="main-menu">
+						<li><a href="http://softuni.bg/news">NEWS</a></li>
+						<li id="about">ABOUT THE UNIVERSITY &blacktriangledown;
+							<ul class="drop-down" id="about-menu">
+								<li><a href="https://softuni.bg/about">About SoftUni</a></li>
+								<li><a href="https://softuni.bg/curriculum">Curriculum</a></li>
+								<li><a href="https://softuni.bg/plan">Plan</a></li>
+							</ul>
+						</li>
+						<li id="training">TRAINING COURSES &blacktriangledown;
+							<ul class="drop-down" id="courses">
+								<li><a href="https://softuni.bg/trainings/courses/list">Courses</a></li>
+                                <li><a href="https://softuni.bg/trainings/coursesinstances/details/1058">C# Basics September</a></li>
+                                <li><a href="https://softuni.bg/trainings/coursesinstances/details/1056">Java Basics September</a></li>
+                                <li><a href="https://softuni.bg/trainings/coursesinstances/details/1065">Web Fundamentals (HTML + CSS) September</a></li>
+                                <li class="menu-section"><a href="https://softuni.bg/trainings/seminars/list">Seminars</a></li>
+                                <li><a href="https://softuni.bg/trainings/seminars/details/1067">Advanced CSS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://softuni.bg/companies">FOR COMPANIES</a></li>
+                        <li><a href="http://softuni.bg/forum">FORUM</a></li>
+                        <li><a href="http://softuni.bg/CONTACTS">CONTACTS</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</body>

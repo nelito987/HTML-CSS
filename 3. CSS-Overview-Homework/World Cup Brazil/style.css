@@ -1,0 +1,217 @@
+body {
+	font-family: "Arial";
+	font-size: 1em;
+}
+
+#wrapper {	
+	margin: auto;
+	padding: 10px;
+	background-color: #00923E;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+table {
+	border-spacing: 0;
+	margin: 10px auto; 
+}
+
+th, td{
+	height: 30px;
+	width: 50px;
+	border: 1px solid black;
+	padding: 10px 5px 10px 5px; 	
+	text-align: center;
+}
+
+.host, .guest {
+	width: 200px;
+}
+
+.host {
+	text-align:right;
+}
+.guest{
+	text-align: left;
+}
+
+tr:first-child {
+	background-color: red;
+}
+
+tr:last-child {
+	background-color: #f7d358;
+}
+tr:last-of-type td:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 15px;
+}
+
+th:first-child{
+	border-top-left-radius: 15px;
+}
+th:last-child{
+	border-top-right-radius: 15px;
+}
+
+/*
+td: first-child {
+	border-left: none;
+}
+
+td: last-child {
+	body-bottom: none;
+}
+*/
+
+
+tr:nth-child(odd) td {
+	background: white;
+}
+
+tr:nth-child(even) td {
+	background: gray;
+}
+/*
+tr{
+	background: #00923E;
+}
+*/
+
+#brasil p:after {
+    content: url(images/brasil1.jpg);
+	max-width: 25;
+	max-height: 15px;
+	height:auto;
+	width: auto;	
+}
+#spain p:after {
+    content: url(images/brasil1.jpg);
+	max-width: 25;
+	max-height: 15px;
+	height:auto;
+	width: auto;	
+}
+#italy p:after {
+    content: url(images/brasil1.jpg);
+	max-width: 25;
+	max-height: 15px;
+	height:auto;
+	width: auto;	
+}
+#argentina p:after {
+    content: url(images/brasil1.jpg);
+	max-width: 25;
+	max-height: 15px;
+	height:auto;
+	width: auto;	
+}
+#germany p:after {
+    content: url(images/brasil1.jpg);
+	max-width: 25;
+	max-height: 15px;
+	height:auto;
+	width: auto;	
+}
+#mexico p:before {
+    content: url(images/brasil1.jpg);
+	max-width: 25;
+	max-height: 15px;
+	height:auto;
+	width: auto;	
+}
+#netherlands p:before {
+    content: url(images/brasil1.jpg);
+	max-width: 25;
+	max-height: 15px;
+	height:auto;
+	width: auto;	
+}
+#england p:before {
+    content: url(images/brasil1.jpg);
+	max-width: 25;
+	max-height: 15px;
+	height:auto;
+	width: auto;	
+}
+#bosna p:before {
+    content: url(images/brasil1.jpg);
+	max-width: 25;
+	max-height: 15px;
+	height:auto;
+	width: auto;	
+}
+#portugal p:before {
+    content: url(images/brasil1.jpg);
+	max-width: 25;
+	max-height: 15px;
+	height:auto;
+	width: auto;	
+}
+select {
+	width: 45px;
+	height: 20px;
+	font-size; 1em;
+}
+
+.green-selector{
+	color:green;
+}
+
+select[disabled] {
+	color:red;
+}
+
+.group, .result {
+	width: 70px;
+	text-align: center;
+}
+
+.red-button button {    
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-repeat:no-repeat;
+    background-image: url('images/redBet.png');
+}
+
+.green-button button {    
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-repeat:no-repeat; 
+    background-image: url('images/greenBet.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

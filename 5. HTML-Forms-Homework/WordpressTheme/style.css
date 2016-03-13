@@ -1,0 +1,24 @@
+body {
+	font-style: Verdana;
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+
+input[type="search"]{
+	width: 150px;
+	height: 30px;
+	border-radius: 3px;
+	background: #e0f8e0;
+
+}
+
+#search-logo{
+	margin-top: 5px;
+}
+
+form {
+	margin: 0 auto;
+	font-style: italic;
+	width: 400px;
+}

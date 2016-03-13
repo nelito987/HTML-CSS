@@ -1,0 +1,147 @@
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+	display: table;
+	background-color:#3b5997;
+	color: white; 
+	padding: 5px;
+}
+
+form {
+	display: flex;
+	margin: 15px;
+	justify-content: space-between;
+	
+}
+
+#left-side {
+	width: 44%;
+}
+
+#right-side {
+	width: 53%;
+}
+
+h1, h3, h6 {
+	text-align: center;
+	margin: 20px;
+}
+h1 {
+	font-size: 4em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h6 {
+	font-size: 1em;
+}
+
+legend {
+	font-weight: bold;
+	text-align: center;	
+
+}
+
+fieldset {
+	border: 1px solid #d8d8d8;
+	border-radius: 10px;
+	box-sizing         : border-box; /* For IE and modern versions of Chrome */
+	-moz-box-sizing    : border-box; /* For Firefox                          */
+	-webkit-box-sizing : border-box; /* For Safari    */
+	width: 100%;
+	height: 240px;
+}
+
+input, select {
+	width: 45%;
+	height: 20px;
+	margin: 5px 0px 5px 10px;
+	border: none;
+	border-radius: 3px;
+}
+
+label {
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+input[id="birth-date"]{
+	width: 70%;
+}
+input[type="radio"]{
+	width: 10px;
+	height: 10px;
+	margin-bottom: 20px;
+}
+
+label[name="gender"]{
+ 	font-weight: normal;
+ }
+input[type="reset"],
+input[type="submit"]{
+	width: 100%;
+	height: 35px;
+	border: none;
+	border-radius: 6px;
+	margin: 15px 0px;
+	color: #3b5997;
+}
+
+input[type="submit"]
+{
+	font-size: 1.4em;
+}
+.oneThird{
+	width: 30%;
+	height: 20px;
+}
+
+.oneForth {
+	width: 15%;
+	height: 20px;
+}
+
+legend, select, textarea{
+	margin: 5px 0px 5px 10px;
+}
+
+input[type="color"]{
+	vertical-align: bottom;
+	height: 22px; 
+}
+
+.birth-date label,
+.door-color label {
+	display: block;
+}
+
+textarea{
+	width: 96%;
+	height: 60px;
+	border: none;
+	border-radius: 5px;
+}
+
+label[for="more-info"]{
+	margin-top: 10px;
+}
+
+input[name="door-color"],
+select[name="aunt"],
+input[name="meter"]{
+	margin-bottom: 20px;
+}
+
+input, textarea, select
+{
+	box-sizing         : border-box; /* For IE and modern versions of Chrome */
+	-moz-box-sizing    : border-box; /* For Firefox                          */
+	-webkit-box-sizing : border-box; /* For Safari                           */
+}

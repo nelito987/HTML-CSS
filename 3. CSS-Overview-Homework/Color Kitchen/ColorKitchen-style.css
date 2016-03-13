@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-image: url('colorful_dots_on_black.jpg');
+	font-family: "Verdana";
+}
+
+body > header:nth-child(1) {
+    width: 100%;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 2em;
+    height: 60px;
+    background: linear-gradient(
+            to right,
+            red,
+            red 33.3%,
+            green 33.3%,
+            green 67.7%,
+            blue 67.7%);
+}
+
+
+aside {
+	background: rgba(255, 255, 255, 0.95);
+	float:left;
+	text-align: left;
+	width: 20%;
+	border-radius: 25px;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: 10px;
+	position: fixed;
+}
+
+nav  header {
+	margin-top:15px;
+	font-size: 1.3em;
+	font-color: black;
+	text-decoration: underline;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+nav ul {
+	padding: 0;	
+}
+
+nav ul li {
+	margin: 2px;
+	padding: 2px 20px 5px 0px;
+}
+
+nav ul li a:before {
+  content: url('checksign.png')" ";
+}
+
+nav ul li a:visited {
+	color:grey;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li:nth-child(1):hover {
+	background:red;
+}
+nav ul li:nth-child(2):hover {
+	background:orange;
+}
+nav ul li:nth-child(3):hover {
+	background:yellow;
+}
+nav ul li:nth-child(4):hover {
+	background:green;
+}
+nav ul li:nth-child(5):hover {
+	background:blue;
+}
+nav ul li:nth-child(6):hover {
+	background:purple;
+}
+
+article {
+	width: 75%;
+	float: right;
+	background-color: rgba(255, 255, 255, 0.95);
+	text-align: left;
+	font-size: 1em;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 5px;
+}
+
+section article header {
+	width: 100%;
+	height: 25px;
+	color: white;
+	text-align: left;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#webColors {
+	background: red;	
+}
+
+#webSafeColors {
+	background: orange;
+	color: black;
+}
+#RGB {
+    background: yellow;
+    color: black;
+}
+
+#RGBA {
+    background: green;
+}
+
+#\#HSLHSV {
+    background: blue;
+}
+
+#\#lorem {
+    background: purple;
+}
+span:lang(la) {
+	color: blue;
+	font-style: italic;
+}
+
+section {
+	margin-top: 12px;
+	margin-right: 20px;
+}
+
+section article div::first-letter {
+	font-size: 3em;
+}
+
+section article div::first-line {
+	font-style: italic;
+}
+
+footer a {
+	color: grey;
+	font-style: italic;
+}

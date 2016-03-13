@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Programmer Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+	<body>
+		<div id="calculator-wrapper">
+			<nav>
+				<span class="menu">View</span>
+				<span class="menu">Edit</span>
+				<span class="menu">Help</span>
+			</nav>
+			
+			<form class="numbers-area input-box">
+				<input type="text"id="numbers-area" name="numbers" value="0"/> </br>
+			</form>
+			
+			<div id="binary-box" class="input-box">
+				<table>
+					<tr>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+					</tr>
+					<tr class="output-row">
+						<td>63</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>47</td>
+						<td></td>
+						<td></td>
+						<td>32</td>
+					</tr>
+					<tr>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+					</tr>
+					<tr class="output-row">
+						<td>31</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>15</td>
+						<td></td>
+						<td></td>
+						<td>0</td>
+					</tr>
+				</table>
+			</div>
+			<div id="controls-wrapper">
+			
+				<div id="left-side">
+					<div id="numerical-panel">
+						<form class="input-box">
+							<input type="radio" name="numeric" value="hex" />Hex</br>
+							<input type="radio" name="numeric" value="dec" />Dec</br>
+							<input type="radio" name="numeric" value="oct" />Oct</br>
+							<input type="radio" name="numeric" value="bin" />Bin
+						</form>
+					</div>
+					
+					<div id="byte-size">
+						<form class="input-box">
+							<input type="radio" name="byte" value="qword" />Qword</br>
+							<input type="radio" name="byte" value="dword" />Dword</br>
+							<input type="radio" name="byte" value="word" />Word</br>
+							<input type="radio" name="byte" value="byte" />Byte
+						</form>
+					</div>
+				</div>
+				
+				<div id="button-container">
+					<form>
+						<div class="table">
+							<div class="table-row">
+								<button type="button" class="gradient" disabled="disabled"></button>
+								<button class="gradient" type="button">Mod</button>
+								<button type="button" class="dark" disabled="disabled">A</button>
+								<button type="button" class="dark" disabled="disabled">MC</button>
+								<button type="button" class="dark" disabled="disabled">MR</button>
+								<button type="button" class="dark" disabled="disabled">MS</button>
+								<button type="button" class="dark" disabled="disabled">M+</button>
+								<button type="button" class="dark" disabled="disabled">M-</button>
+							</div>
+							<div class="table-row">
+								<button type="button" class="gradient"> &#40 </button>
+								<button type="button" class="gradient"> &#41 </button>
+								<button type="button" class="dark" disabled="disabled">B</button>
+								<button type="button" class="gradient" id="arrow" >&#8592</button>
+								<button type="button" class="gradient">CE</button>
+								<button type="button" class="gradient">C</button>
+								<button type="button" class="gradient"> &#177 </button>
+								<button type="button" class="dark" disabled="disabled"> &#x221a </button>
+							</div>
+							<div class="table-row">
+								<button type="button" class="gradient"> RoL </button>
+								<button type="button" class="gradient"> RoR </button>
+								<button type="button" class="dark" disabled="disabled">C</button>
+								<button type="button" class="light">7</button>
+								<button type="button" class="light">8</button>
+								<button type="button" class="light">9</button>
+								<button type="button" class="gradient"> / </button>
+								<button type="button" class="dark" disabled="disabled"> % </button>
+							</div>
+							<div class="table-row">
+								<button type="button" class="gradient"> Or </button>
+								<button type="button" class="gradient"> Xor </button>
+								<button type="button" class="dark" disabled="disabled">D</button>
+								<button type="button" class="light">4</button>
+								<button type="button" class="light">5</button>
+								<button type="button" class="light">6</button>
+								<button type="button" class="gradient"> * </button>
+								<button type="button" class="dark" disabled="disabled"> 1/x </button>
+							</div>
+							<div class="table-row">
+								<button type="button" class="gradient"> Lsh </button>
+								<button type="button" class="gradient"> Rsh </button>
+								<button type="button" class="dark" disabled="disabled">E</button>
+								<button type="button" class="light">1</button>
+								<button type="button" class="light">2</button>
+								<button type="button" class="light">3</button>
+								<button type="button" class="gradient" > - </button>
+								<button type="button" class="gradient" id="double-button" > = </button>
+							</div>
+							<div class="table-row">
+								<button type="button" class="gradient"> Not </button>
+								<button type="button" class="gradient"> And </button>
+								<button type="button" class="dark" disabled="disabled">F</button>
+								<button type="button" class="light" id="zero-button">0</button>
+								<button type="button" class="dark" disabled="disabled">.</button>
+								<button type="button" class="gradient" >+</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>	
+</html>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					

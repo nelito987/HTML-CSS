@@ -1,0 +1,43 @@
+body {
+	font-size: 10px;
+	font-family: Verdana;
+	padding: 8px;
+}
+
+#container {
+	width: 400px;
+	background: #e6e6e6;
+	color: #6e6e6e;	
+	display: table;
+	padding: 5px;
+}
+
+h3 {
+	color: #0404b4;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+header {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+input {
+	height: 22px;
+	margin: 5px 0px;
+	display: block;
+	width: 100%;
+	text-indent: 5px;
+}
+
+.register {
+	color: #0404b4;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#register, #login {
+	width: 45%;
+	float: left;	
+}
