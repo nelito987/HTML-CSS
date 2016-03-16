@@ -1,0 +1,49 @@
+﻿body {
+    color: black;
+}
+
+.navbar-default {
+    background: #33A220;
+    padding-left: 11%;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #080808;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #080808;
+}
+
+.nav li:hover {
+    background: #6de659;
+    color: green;
+}
+
+.list-group-item.active {
+    background: #6de659;
+    border: 3px solid #27b90f;
+    color: black;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+a.list-group-item:hover {
+    border: 3px solid #008000;
+    background: #d8f6ce;
+    color: #33a220;
+    font-weight: bold;
+}
+
+.list-group-item.active:hover {
+    background: #008000;
+    color: #ffffff;
+    font-weight: bold;
+}

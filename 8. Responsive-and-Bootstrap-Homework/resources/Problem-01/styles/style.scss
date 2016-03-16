@@ -1,0 +1,205 @@
+﻿$black-border: 1.5px solid black;
+$light-blue-background: #eff5fb;
+
+
+div, header, ul, li, nav, section, article, footer, h1, h2, p, img
+{
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+}
+
+
+body {
+    background: #81bef7;
+    font-family: Arial, sans-serif;
+}
+
+#wrapper{
+    width: 60%;
+    color: #fff;
+    margin: 0 auto;
+
+    >header {
+        /*display: inline-block;*/
+        margin: 0;          
+        border-bottom: $black-border ;
+        padding-bottom: 20px;                                
+
+        h1 a{
+           
+            text-decoration: none;  
+            
+            img {
+                max-width: 35%;
+            }
+            span{
+                font-size: 1.2em;         
+                color: #fff;
+                padding-right: 11%;
+                max-width:64%;
+            }
+        }
+    }
+
+    nav{          
+        
+        ul{
+            position: relative;            
+            list-style-type: none;
+            float: right;
+            clear: both;            
+
+            li{
+                display:inline-block;
+                background: #fff;
+                border: $black-border;
+                margin-right: 15px;     
+                padding: 5px;           
+
+                a{
+                    text-decoration: none;                    
+                    color: black;
+                }
+             }
+        }        
+    }
+
+    section{
+        width: 75%;
+        display: inline-block; 
+        margin-top:1%;    
+
+        article{
+            background: $light-blue-background;
+            border: $black-border;
+            color: black;            
+            text-align: justify;
+            margin-bottom:3%;
+
+            header{
+                font-size:1em;
+                font-weight: normal;
+
+                h1{
+                    padding:2%;
+                }
+             }                 
+               p {
+                    text-indent: 25px;    
+                    font-size: 0.8em;
+                    padding: 0% 2% 2% 2%;                                  
+                }                     
+        }
+    }
+
+    .news{
+        width: 22%;
+        float:right;
+        clear: both;
+        border: $black-border;
+        background: $light-blue-background;
+        margin: 1%;
+       
+        ul{
+            list-style-type:none;
+        }
+
+        li{
+            padding:5%;
+
+            a{
+                color:black;
+                font-size:0.8em;
+                text-decoration:none;
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+        border: $black-border;
+        background: $light-blue-background;
+        text-align:center;
+        color: black;
+        font-size:0.6em;
+        padding-top:1%;
+    }
+}
+
+@media only screen and (max-width : 960px) {
+    #wrapper {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    body {
+        
+        #wrapper{
+            
+            section {
+            width: 100%;
+            display:block;
+            margin-top: 7%;
+        }
+
+        .news{
+            width:100%;
+            clear:both;
+            float:none;
+            
+            li {
+                display: inline-block;
+                text-align: center;
+                width:24%;
+                vertical-align: top;
+            }
+        }
+        }
+    }
+}
+
+@media only screen and(max-width: 640px) {
+    body{
+        #wrapper{
+
+            
+            header{
+
+                border: none;
+                h1{
+                    display: block;
+                    text-align: center;
+                    padding-bottom: 5%;
+                    border-bottom: $black-border ;
+                    
+                    span{
+                        padding-right:0px;  
+                    }
+                }
+
+                nav ul {
+                    float: none;
+                    margin-left:10%;
+                    margin-top: -5%;
+
+                    li{
+                        display: block;
+                        width: 80%;
+                        text-align: center;
+                    }
+                }
+            }
+
+            article>header>h1{
+                border: none;
+            }
+
+            .news li{
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
